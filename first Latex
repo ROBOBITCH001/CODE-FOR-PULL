@@ -1,0 +1,19 @@
+\documentclass[a4paper, 24pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{xeCJK}
+\setCJKmainfont{Noto Sans CJK TC}
+\usepackage[margin=2cm] {geometry}
+\usepackage{setspace}
+\doublespacing
+\usepackage{apacite}
+\usepackage{listings}
+\usepackage{setspace}
+\usepackage{minted}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{float} %這個是讓圖不跑掉的東西，要用figure[H]
+\usepackage{indentfirst}
+\setlength{\parindent}{2em}
+\begin{document}
+\begin{center}
+\vspace*{3cm}
